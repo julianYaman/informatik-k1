@@ -4,8 +4,18 @@ Hier sind alle "größere" Projekte welche im Fach Informatik K1 im Staufer-Gymn
 
 Dieses Repository ist nur für eigene Lernzwecke gedacht. Kopieren des Quellcodes bringt in diesem Fall absolut nichts.
 
+### Hinweis:
+
+Die README.TXT in den einzelnen Projekten hat nichts zu bedeuten, kann aber natürlich selber bearbeitet werden.
+
 ## Vorraussetzungen für Bearbeitung auf dem eigenen PC
 
 - Aktuellste Version von JDK und JRE auf dem PC ( [Download + Installationsanleitung](www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html )) 
 - BlueJ installiert
 - SuM-Library auf dem PC installiert + in BlueJ hinzugefügt ( [Download + Installationsanleitung](http://www.mg-werl.de/sum/) )
+
+## Mitwirkung
+
+Issues und Pull Requests sind erwünscht bei Fehler oder Vorschlägen.
+
+Pull Requests werden aber ausführlich geprüft auf das Vorhandensein im Unterricht.
