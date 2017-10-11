@@ -1,0 +1,30 @@
+import sum.kern.*;
+/**
+ * @author @julianYaman <julianyaman@gmx.de>
+ * @version 1.0.0
+ */
+public class main
+{
+    // Objects
+    Bildschirm bildschirm;
+    Stift stift;
+
+    // Attribute
+
+    // Konstruktor
+    public main()
+    {
+        bildschirm = new Bildschirm();
+        stift = new Stift();
+    }
+
+    // Dienste
+    public void executeOnScreen(){
+        stift.bewegeBis(100,100);
+        stift.schreibeText("Hallo Welt!");
+        
+        stift.gibFrei();
+        bildschirm.gibFrei();
+    }
+
+}

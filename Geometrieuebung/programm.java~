@@ -1,0 +1,60 @@
+import sum.kern.*;
+/**
+ * @author @julianYaman <julianyaman@gmx.de>
+ * @version 1.0.0
+ */
+public class programm   
+{
+    // Objects
+    Bildschirm bildschirm;
+    Stift stift;
+
+    // Attribute
+
+    // Konstruktor
+    public programm()
+    {
+        bildschirm = new Bildschirm(500,500);
+        stift = new Stift();
+        
+        System.out.println("Creating programm...");
+    }
+
+    // Methods
+    public void draw()
+    {
+        
+        System.out.println("Drawing...");
+        
+        stift.bewegeBis(70,70);
+        
+        // drawing triangle
+        stift.runter();
+        stift.bewegeBis(100,120);
+        stift.bewegeBis(40,120);
+        stift.bewegeBis(70,70);
+        
+        stift.hoch();
+        
+        // drawing rectangle
+        stift.bewegeBis(150,70);
+        stift.runter();
+        stift.zeichneRechteck(50,50);
+        
+        stift.hoch();
+        
+        // drawing fünfeck (englisch gut)
+        stift.bewegeBis(250,70);
+        stift.runter();
+        stift.bewegeBis(275,90);
+        stift.bewegeBis(265,120);
+        stift.bewegeBis(235,120);
+        stift.bewegeBis(225,90);
+        stift.bewegeBis(250,70);
+        
+        stift.hoch();
+        
+        //
+    }
+
+}
