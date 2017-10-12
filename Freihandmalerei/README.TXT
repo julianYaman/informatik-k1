@@ -1,5 +1,7 @@
-Dieses Projekt wird weiterhin geupdated (Stand 12.10.17)
+In diesem Projekt wird basierend auf Abschnitt 3 mithilfe von Schleifen eine Programm erzeugt welches ermöglicht mit der Maus
+freihändig zu zeichnen.
 
+// Dieses Projekt wird weiterhin geupdated (Stand 12.10.17)
 ----------------------------------------------------------
 
 PROJEKTBEZEICHNUNG: Freihandmalerei

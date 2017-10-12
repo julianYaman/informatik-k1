@@ -4,13 +4,20 @@ Hier sind alle "größere" Projekte welche im Fach Informatik K1 im Staufer-Gymn
 
 Dieses Repository ist nur für eigene Lernzwecke gedacht. Kopieren des Quellcodes bringt in diesem Fall absolut nichts.
 
+### Projekte:
+
+- Geometrieü(ue)bung - Version 1.1 - **final / fertig**
+- Freihandmalerei - Version 1.0 - *stable, unfinished / nicht fertig (in Bearbeitung)*
+
+**Stand 12.10.2017**
+
 ### Hinweis:
 
 Die README.TXT in den einzelnen Projekten hat nichts zu bedeuten, kann aber natürlich selber bearbeitet werden.
 
 ## Vorraussetzungen für Bearbeitung auf dem eigenen PC
 
-- Aktuellste Version von JDK und JRE auf dem PC ( [Download + Installationsanleitung](www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html )) 
+- Aktuellste Version von JDK und JRE auf dem PC ( [Download + Installationsanleitung](https://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html )) 
 - BlueJ installiert
 - SuM-Library auf dem PC installiert + in BlueJ hinzugefügt ( [Download + Installationsanleitung](http://www.mg-werl.de/sum/) )
 
