@@ -1,8 +1,6 @@
 #BlueJ class context
-comment0.target=programm
-comment0.text=\r\n\ @author\ @julianYaman\ <julianyaman@gmx.de>\r\n\ @version\ 1.0.0\r\n
+comment0.params=
+comment0.target=programm()
 comment1.params=
-comment1.target=programm()
-comment2.params=
-comment2.target=void\ draw()
-numComments=3
+comment1.target=void\ draw()
+numComments=2
