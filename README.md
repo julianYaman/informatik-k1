@@ -7,7 +7,7 @@ Dieses Repository ist nur f체r eigene Lernzwecke gedacht. Kopieren des Quellcode
 ### Projekte:
 
 - Geometrie체(ue)bung - Version 1.1 - **final / fertig**
-- Freihandmalerei - Version 1.0 - *stable, unfinished / nicht fertig (in Bearbeitung)*
+- Freihandmalerei - **F체r einzelne Versionen, siehe Unterordner des Ordners _Freihandmalerei-Versionen._**
 
 **Stand 12.10.2017**
 
@@ -17,9 +17,9 @@ Die README.TXT in den einzelnen Projekten hat nichts zu bedeuten, kann aber nat�
 
 ## Vorraussetzungen f체r Bearbeitung auf dem eigenen PC
 
-- Aktuellste Version von JDK und JRE auf dem PC ( [Download + Installationsanleitung](https://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html )) 
-- BlueJ installiert
-- SuM-Library auf dem PC installiert + in BlueJ hinzugef체gt ( [Download + Installationsanleitung](http://www.mg-werl.de/sum/) )
+- Aktuellste Version von JDK und JRE auf dem PC ([Download + Installationsanleitung](https://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)) 
+- BlueJ installiert ([Download + Installationsanleitung](https://www.bluej.org/))
+- SuM-Library auf dem PC installiert + in BlueJ hinzugef체gt ([Download + Installationsanleitung](http://www.mg-werl.de/sum/))
 
 ## Mitwirkung
 
