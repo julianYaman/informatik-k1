@@ -20,13 +20,17 @@ public class app
 
     // Dienste
     public void draw(){
-        stift.bewegeBis(maus.hPosition(), maus.vPosition());
-        stift.runter();
         do{
             if(maus.istGedrueckt()){
+   
                 stift.bewegeBis(maus.hPosition(), maus.vPosition());
                 stift.zeichneKreis(3);
             }
         }while(!maus.doppelKlick());
+        
+        stift.gibFrei();
+        bildschirm.gibFrei();
+        maus.gibFrei();
+        
     }
 }
