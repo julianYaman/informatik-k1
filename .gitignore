@@ -1,2 +1,7 @@
 # Sonstiges
 .idea
+
+# Archive
+*.rar
+*.tar
+*.zip
