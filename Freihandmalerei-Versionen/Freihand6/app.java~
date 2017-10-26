@@ -8,14 +8,14 @@ public class app
     // Bezugsobjekte
     Stift derStift;
     Bildschirm derBildschirm;
-    Maus derMaus;
+    Maus dieMaus;
     Tastatur dieTastatur;
 
     // Konstruktor
     public app()
     {
         derBildschirm = new Bildschirm(500,500);
-        derMaus = new Maus();
+        dieMaus = new Maus();
         derStift = new Stift();
         dieTastatur = new Tastatur();
     }
@@ -23,23 +23,20 @@ public class app
     // Dienste
     public void draw(){
         do{
-            
-            if(derMaus.istGedrueckt()){
-                derStift.bewegeBis(derMaus.hPosition(), derMaus.vPosition());
-                derStift.runter();
-            }else{
+            derStift.bewegeBis(dieMaus.hPosition(), dieMaus.vPosition());
+            if(dieMaus.istGedrueckt()){
+                derStift.bewegeBis(dieMaus.hPosition(), dieMaus.vPosition());
+                derStift.zeichneKreis(3);
+                while(dieMaus.istGedrueckt());
+                derStift.runter();  
+                derStift.bewegeBis(dieMaus.hPosition(), dieMaus.vPosition());
                 derStift.hoch();
             }
-            
-            if(dieTastatur.wurdeGedrueckt()){
-                derStift.radiere();
-            }
-            
-        }while(!derMaus.doppelKlick());
+        }while(!dieMaus.doppelKlick());
         
         derStift.gibFrei();
         derBildschirm.gibFrei();
-        derMaus.gibFrei();
+        dieMaus.gibFrei();
         dieTastatur.gibFrei();
         
     }
