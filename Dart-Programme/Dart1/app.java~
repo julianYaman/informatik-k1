@@ -1,0 +1,39 @@
+
+import sum.kern.*;
+/**
+ * @author 
+ * @version 
+ */
+public class app
+{
+    // Objekte
+    Bildschirm derBildschirm;
+    Buntstift meinStift;
+
+    // Konstruktor
+    public app()
+    {
+        derBildschirm = new Bildschirm(0,0,1024,768);
+        meinStift = new Buntstift();
+    }
+
+    // Dienste
+    public void fuehreAus()
+    {
+        // Aktionsteil
+	    
+        meinStift.bewegeBis(800,100);
+        meinStift.zeichneKreis(20);
+        meinStift.zeichneKreis(50);
+        meinStift.zeichneKreis(80);
+        meinStift.zeichneKreis(110);
+        
+        // Pfeil
+        meinStift.bewegeBis(60,20);
+        meinStift.runter();
+        meinStift.dreheUm(35);
+        meinStift.bewegeUm(55);
+        meinStift.zeichneKreis(5);
+        
+    }
+}

@@ -72,4 +72,8 @@ public class app
         dieTastatur.gibFrei();
         
     }
+    
+    public void zeichneEinhorn(Buntstift stift, Maus maus){
+        stift.zeichne
+    }
 }
