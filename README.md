@@ -1,4 +1,4 @@
-# Informatik K1 - Projekte
+﻿# Informatik K1 - Projekte
 
 Hier sind alle "größere" Projekte welche im Fach Informatik K1 im Staufer-Gymnasium Pfullendorf gemacht wurden.
 
@@ -7,9 +7,12 @@ Dieses Repository ist nur für eigene Lernzwecke gedacht. Kopieren des Quellcode
 ### Projekte:
 
 - Geometrieü(ue)bung - Version 1.1 - **final / fertig**
-- Freihandmalerei - **Für einzelne Versionen, siehe Unterordner des Ordners _Freihandmalerei-Versionen._**
+- Freihandmalerei-Versionen - **Für einzelne Versionen, siehe Unterordner des Ordners _Freihandmalerei-Versionen._**
+Notiz zu _Freihandmalerei_: **Alle Versionen sind fertig.** Es wird aber an weiteren nicht-relevanten Extras gearbeitet. *(Freihand 11.0 incoming)*
+- Dart-Programme - **Für einzelne Versionen, siehe Unterordner des Ordners _Dart-Programme._**
+Notiz zu _Dart-Programme_: **Dieser Ordner enthält Projekte die noch in der Entwicklung sind**
 
-**Stand 12.10.2017**
+**Stand: 15.11.2017**
 
 ### Hinweis:
 
