@@ -56,6 +56,17 @@ public class app
             meinStift.zeichneKreis(3);
         }
         do{
+            meinStift.radiere();
+            meinStift.zeichneKreis(5);
+            meinStift.bewegeUm(-55);
+            meinStift.normal();
+            
+            meinStift.dreheUm(1.0);
+            // Draw arrow
+            meinStift.bewegeUm(55);
+            meinStift.zeichneKreis(3);
+        }while(dieMaus.istGedrueckt());
+        do{
             // Deleting arrow
             meinStift.radiere();
             meinStift.zeichneKreis(5);
@@ -70,7 +81,9 @@ public class app
             meinStift.runter();
             meinStift.bewegeUm(55);
             meinStift.zeichneKreis(5);
-        }while((meinStift.hPosition) < 800);
+        }while((meinStift.hPosition()) < 800);
+
+   
         
         meinStift.gibFrei();
         derBildschirm.gibFrei();

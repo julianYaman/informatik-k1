@@ -55,14 +55,18 @@ public class app
             meinStift.bewegeUm(55);
             meinStift.zeichneKreis(3);
         }
+        // Rotating arrow
         do{
+            // Deleting arrow
             meinStift.radiere();
             meinStift.zeichneKreis(5);
             meinStift.bewegeUm(-55);
             meinStift.normal();
             
+            // rotate arrow
             meinStift.dreheUm(0.05);
-            // Draw arrow
+            
+            // Draw new arrow
             meinStift.bewegeUm(55);
             meinStift.zeichneKreis(3);
         }while(dieMaus.istGedrueckt());
@@ -75,15 +79,25 @@ public class app
             
             // Movement
             meinStift.hoch();
-            meinStift.bewegeUm(0.009);
+            meinStift.bewegeUm(0.014);
             
             // Drawing again
             meinStift.runter();
             meinStift.bewegeUm(55);
             meinStift.zeichneKreis(5);
-        }while((meinStift.hPosition()) < 800);
-
-   
+            
+        }while(meinStift.hPosition() < 800);
+        
+        // Trefferabfrage
+        if(meinStift.vPosition() >= 20 && meinStift.vPosition() <= 240){
+            meinStift.hoch();
+            meinStift.bewegeBis(400,400);
+            meinStift.schreibeText("Getroffen");
+        }else{
+            meinStift.hoch();
+            meinStift.bewegeBis(400,400);
+            meinStift.schreibeText("no hit");  
+        }
         
         meinStift.gibFrei();
         derBildschirm.gibFrei();

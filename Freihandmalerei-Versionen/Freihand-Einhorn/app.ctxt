@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=app
+comment0.text=\r\n\ @author\ \r\n\ @version\ \r\n
+comment1.params=
+comment1.target=app()
+comment2.params=
+comment2.target=void\ draw()
+comment3.params=stift\ maus
+comment3.target=void\ zeichneEinhorn(sum.kern.Buntstift,\ sum.kern.Maus)
+numComments=4

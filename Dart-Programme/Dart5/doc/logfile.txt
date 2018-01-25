@@ -1,0 +1,44 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-8-oracle/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/usr/share/bluej/userlib/xstream-1.1.2.jar:/usr/share/bluej/userlib/pi4j-gpio-extension.jar:/usr/share/bluej/userlib/pi4j-service.jar:/usr/share/bluej/userlib/pi4j-device.jar:/usr/share/bluej/userlib/SuMWerkzeuge.jar:/usr/share/bluej/userlib/SuMSQL.jar:/usr/share/bluej/userlib/SuMMultimedia.jar:/usr/share/bluej/userlib/pi4j-core.jar:/usr/share/bluej/userlib/SuMEreignis.jar:/usr/share/bluej/userlib/SuMNetz.jar:/usr/share/bluej/userlib/QTJava.zip:/usr/share/bluej/userlib/SuMStrukturen.jar:/usr/share/bluej/userlib/xpp3_min-1.1.3.4.I.jar:/usr/share/bluej/userlib/mysql-connector-java-5.1.15-bin.jar:/usr/share/bluej/userlib/SuMKomponenten.jar:/usr/share/bluej/userlib/SuMKern.jar:/home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5
+-d
+/home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/app.java
+<---- end of javadoc command ---->
+Loading source file /home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/app.java...
+Constructing Javadoc information...
+/home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/app.java:7: warning - @author tag has no arguments.
+/home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/app.java:7: warning - @version tag has no arguments.
+Standard Doclet version 1.8.0_151
+Building tree for all the packages and classes...
+Generating /home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/doc/app.html...
+Generating /home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/doc/package-frame.html...
+Generating /home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/doc/package-summary.html...
+Generating /home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/doc/allclasses-frame.html...
+Generating /home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/doc/allclasses-noframe.html...
+Generating /home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/doc/index.html...
+Generating /home/students/k11/yamanju/Desktop/informatik-k1-master/Dart-Programme/Dart5/doc/stylesheet.css...
+2 warnings
