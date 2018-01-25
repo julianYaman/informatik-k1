@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Kugel()
+comment1.params=
+comment1.target=void\ zeichne()
+comment2.params=
+comment2.target=void\ gibFrei()
+comment3.params=
+comment3.target=void\ bewege()
+comment4.params=
+comment4.target=void\ loesche()
+comment5.params=
+comment5.target=double\ hPosition()
+comment5.text=\n\ @return\ horizontale\ position\n
+comment6.params=
+comment6.target=double\ vPosition()
+comment6.text=\n\ @return\ vertikale\ position\n
+comment7.params=pRichtung
+comment7.target=void\ setzeRichtung(double)
+comment7.text=\n\ die\ richtung\ der\ Kugel\ wird\ ge\u00E4ndert\n\ @param\ double\ pRichtung\ -\ Richtung\ \n
+comment8.params=
+comment8.target=boolean\ amLinkenRand()
+comment8.text=\n\ Liefert\ zur\u00FCck\ ob\ die\ Kugel\ den\ linken\ Rand\ \u00FCberschritten\ hat\n\ @return\ true,\ wenn\ der\ Rand\ \u00FCberschritten\ wurde\n
+comment9.params=
+comment9.target=boolean\ amRechtenRand()
+comment9.text=\n\ Liefert\ zur\u00FCck\ ob\ die\ Kugel\ den\ rechten\ Rand\ \u00FCberschritten\ hat\n\ @return\ true,\ wenn\ der\ Rand\ \u00FCberschritten\ wurde\n
+numComments=10
