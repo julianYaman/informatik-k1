@@ -1,14 +1,7 @@
-------------------------------------------------------------------------
-Dies ist die README-Datei des Projekts. Hier sollten Sie Ihr Projekt
-beschreiben.
-Erzählen Sie dem Leser (jemand, der nichts über dieses Projekt weiss),
-alles, was er/sie wissen muss. Üblicherweise sollte der Kommentar 
-zumindest die folgenden Angaben umfassen:
-------------------------------------------------------------------------
+Dieses Programm ist ein Mini-CAD-Editor.
 
-PROJEKTBEZEICHNUNG:
-PROJEKTZWECK:
-VERSION oder DATUM:
-WIE IST DAS PROJEKT ZU STARTEN:
-AUTOR(EN):
-BENUTZERHINWEISE:
+PROJEKTBEZEICHNUNG: MiniCAD
+PROJEKTZWECK: Einführung in Unterklassen und Verwendung derer.
+VERSION oder DATUM: 1.0.0-final
+WIE IST DAS PROJEKT ZU STARTEN: fuehreAus-Prozedur
+AUTOR(EN): Julian Yaman
