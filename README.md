@@ -4,15 +4,19 @@ Hier sind alle "größere" Projekte welche im Fach Informatik K1 im Staufer-Gymn
 
 Dieses Repository ist nur für eigene Lernzwecke gedacht. Kopieren des Quellcodes bringt in diesem Fall absolut nichts.
 
-### Projekte:
+### Projekte (älteste Projekte zuerst):
 
 - Geometrieü(ue)bung - Version 1.1 - **final / fertig**
 - Freihandmalerei-Versionen - **Für einzelne Versionen, siehe Unterordner des Ordners _Freihandmalerei-Versionen._**
-Notiz zu _Freihandmalerei_: **Alle Versionen sind fertig.** Es wird aber an weiteren nicht-relevanten Extras gearbeitet. *(Freihand 11.0 incoming)*
+Notiz zu _Freihandmalerei_: **Projekt fertiggestellt**
 - Dart-Programme - **Für einzelne Versionen, siehe Unterordner des Ordners _Dart-Programme._**
-Notiz zu _Dart-Programme_: **Dieser Ordner enthält Projekte die noch in der Entwicklung sind**
+Notiz zu _Dart-Programme_: **Projekt fertiggestellt**
+- Schatz - **1.0.0 | Projekt eventuell unvollständig**
+- Himmel - **Projekt ist eventuell nicht fertig**
+- MiniCAD - **1.0.0-final | fertiggestellt**
+- Billiard - **1.0.0-2018-01-31 | Projekt in Entwicklung**
 
-**Stand: 15.11.2017**
+**Stand: 31.01.2018**
 
 ### Hinweis:
 
@@ -20,7 +24,7 @@ Die README.TXT in den einzelnen Projekten hat nichts zu bedeuten, kann aber nat�
 
 ## Vorraussetzungen für Bearbeitung auf dem eigenen PC
 
-- Aktuellste Version von JDK und JRE auf dem PC ([Download + Installationsanleitung](https://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)) 
+- Aktuellste Version von JDK und JRE auf dem PC ([Download + Installationsanleitung](https://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html))
 - BlueJ installiert ([Download + Installationsanleitung](https://www.bluej.org/))
 - SuM-Library auf dem PC installiert + in BlueJ hinzugefügt ([Download + Installationsanleitung](http://www.mg-werl.de/sum/))
 
