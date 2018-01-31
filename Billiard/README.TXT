@@ -1,14 +1,7 @@
-------------------------------------------------------------------------
-Dies ist die README-Datei des Projekts. Hier sollten Sie Ihr Projekt
-beschreiben.
-Erzählen Sie dem Leser (jemand, der nichts über dieses Projekt weiss),
-alles, was er/sie wissen muss. Üblicherweise sollte der Kommentar 
-zumindest die folgenden Angaben umfassen:
-------------------------------------------------------------------------
+In diesem Billiard-Projekt (ohne derzeitige spezielle Abspaltung in Unter-Projekte)
+wird ein Spiel programmiert mit der SuM-Bibliothek entwickelt.
 
-PROJEKTBEZEICHNUNG:
-PROJEKTZWECK:
-VERSION oder DATUM:
-WIE IST DAS PROJEKT ZU STARTEN:
-AUTOR(EN):
-BENUTZERHINWEISE:
+PROJEKTBEZEICHNUNG: Billiard
+PROJEKTZWECK: Entwicklung eines Spieles mit BlueJ
+VERSION oder DATUM: 1.0.0-2018-01-25
+AUTOR(EN): Julian Yaman 
