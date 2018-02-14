@@ -63,7 +63,6 @@ public class Kugel
         this.loesche();
         stift.bewegeUm(zGeschwindigkeit);
         this.zeichne();
-        this.setzeRichtung(zRichtung);
   
         if(this.amLinkenRand() || this.amRechtenRand()){
             stift.dreheBis(180 - this.winkel());
