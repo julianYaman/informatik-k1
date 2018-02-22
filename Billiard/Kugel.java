@@ -8,13 +8,9 @@ public class Kugel
     // Bezugsobjekte
     private Buntstift stift;
     private int zGroesse;
+    private int zRichtung;
     private double zGeschwindigkeit;
-    private double zRichtung;
-    
-    private int zLinkerRand;
-    private int zRechterRand;
-    private int zObererRand;
-    private int zUntererRand;
+    private Bildschirm kenntBildschirm;
     
     // Attribute
 
@@ -25,22 +21,19 @@ public class Kugel
     int pGroesse, 
     double pGeschwindigkeit,
     double pRichtung,
-    int pLinkerRand,
-    int pRechterRand,
-    int pObererRand,
-    int pUntererRand)
+    Bildschirm pBildschirm)
     {
         
         stift = new Buntstift();
         
         stift.bewegeBis(pH,pV);
+        stift.dreheBis(pRichtung);
+        
         zGroesse = pGroesse;
+        
         zGeschwindigkeit = pGeschwindigkeit;
-        zLinkerRand = pLinkerRand;
-        zRechterRand = pRechterRand;
-        zObererRand = pObererRand;
-        zUntererRand = pUntererRand;
-        zRichtung = pRichtung;
+        
+        kenntBildschirm = pBildschirm;
     }
 
     // Startkoordinate
@@ -63,13 +56,14 @@ public class Kugel
         this.loesche();
         stift.bewegeUm(zGeschwindigkeit);
         this.zeichne();
-        this.setzeRichtung(zRichtung);
   
-        if(this.amLinkenRand() || this.amRechtenRand()){
-            stift.dreheBis(180 - this.winkel());
-        }else if(this.amOberenRand() || this.amUnterenRand()){
-            stift.dreheBis(360 - this.winkel());
+        if(this.amLinkenRand() || this.amRechtenRand() ){
+            this.setzeRichtung(180 - this.winkel());
+        }else if(this.amOberenRand() || this.amUnterenRand() ){
+            this.setzeRichtung(360 - this.winkel());
         }
+        
+        //System.out.println(zLinkerRand + " - " + zRechterRand);
     }
     
     // Deleting kugel
@@ -97,8 +91,8 @@ public class Kugel
      * die richtung der Kugel wird geändert
      * @param double pRichtung - Richtung 
      */
-    public void setzeRichtung(double pRichtung){
-        stift.dreheBis(pRichtung);
+    public void setzeRichtung(double richtung){
+        stift.dreheBis(richtung);
     }
     
     /**
@@ -106,7 +100,8 @@ public class Kugel
      * @return true, wenn der Rand überschritten wurde
      */
     private boolean amLinkenRand(){
-        return this.hPosition() < zLinkerRand + zGroesse + 1;
+        // System.out.println("Linker Rand");
+        return this.hPosition() < 0 + zGroesse + 1;
     }
     
     /**
@@ -114,7 +109,9 @@ public class Kugel
      * @return true, wenn der Rand überschritten wurde
      */
     private boolean amRechtenRand(){
-        return this.hPosition() > zRechterRand - zGroesse - 1;
+        // System.out.println("Rechter Rand");
+        return this.hPosition() > kenntBildschirm.breite() - zGroesse - 1;
+        
     }
     
     /**
@@ -122,7 +119,7 @@ public class Kugel
      * @return true, wenn der Rand überschritten wurde
      */
     private boolean amOberenRand(){
-        return this.vPosition() < zObererRand + zGroesse + 1; // oberer rand + radius
+        return this.vPosition() < 0 + zGroesse + 1; // oberer rand + radius
     }    
     
     /**
@@ -130,7 +127,7 @@ public class Kugel
      * @return true, wenn der Rand überschritten wurde
      */
     private boolean amUnterenRand(){
-        return this.vPosition() > zUntererRand - zGroesse -1; // unterer rand + radius
+        return this.vPosition() > kenntBildschirm.hoehe() - zGroesse -1; // unterer rand + radius
     }
     
     /**
@@ -165,18 +162,10 @@ public class Kugel
     
     /**
      * Winkel return
-     * @return Winkell
+     * @return Winkel
      */
     public double winkel(){
         return stift.winkel();
-    }
-    
-    /**
-     * Richtung richtung
-     * @return Richtung
-     */
-    public double richtung(){
-        return zRichtung;
     }
     
 }
