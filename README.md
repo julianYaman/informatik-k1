@@ -14,9 +14,9 @@ Notiz zu _Dart-Programme_: **Projekt fertiggestellt**
 - Schatz - **1.0.0 | Projekt eventuell unvollständig**
 - Himmel - **Projekt ist eventuell nicht fertig**
 - MiniCAD - **1.0.0-final | fertiggestellt**
-- Billiard - **1.0.0-2018-01-31 | Projekt in Entwicklung**
+- Billiard - **1.0.0-2018-02-22 | Projekt in Entwicklung**
 
-**Stand: 31.01.2018**
+**Stand: 22.02.2018**
 
 ### Hinweis:
 
