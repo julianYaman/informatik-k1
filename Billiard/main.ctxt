@@ -1,6 +1,8 @@
 #BlueJ class context
-comment0.params=
-comment0.target=main()
+comment0.target=main
+comment0.text=\r\n\ @author\ \r\n\ @version\ \r\n
 comment1.params=
-comment1.target=void\ fuehreAus()
-numComments=2
+comment1.target=main()
+comment2.params=
+comment2.target=void\ fuehreAus()
+numComments=3
