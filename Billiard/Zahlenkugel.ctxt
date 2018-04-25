@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=pH\ pV\ pGroesse\ pGeschwindigkeit\ pRichtung\ pBildschirm\ pFarbe
+comment0.target=Zahlenkugel(int,\ int,\ int,\ double,\ int,\ sum.kern.Bildschirm,\ int)
+comment1.params=
+comment1.target=void\ zeichne()
+comment2.params=
+comment2.target=void\ loesche()
+numComments=3

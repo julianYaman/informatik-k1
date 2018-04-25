@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=pBildschirm
+comment0.target=Loch(sum.kern.Bildschirm)
+comment1.params=
+comment1.target=void\ init()
+comment2.params=
+comment2.target=void\ gibFrei()
+comment3.params=
+comment3.target=double\ hPosition()
+comment4.params=
+comment4.target=double\ vPosition()
+numComments=5

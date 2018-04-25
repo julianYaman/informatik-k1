@@ -3,7 +3,7 @@ import sum.kern.*;
  * @author 
  * @version 
  */
-public class Farbkugel extends Kugel
+public class Zahlenkugel extends Kugel
 {
     // Bezugsobjekte
     private Buntstift buntstift;
@@ -13,7 +13,7 @@ public class Farbkugel extends Kugel
     // Attribute
 
     // Konstruktor
-    public Farbkugel(
+    public Zahlenkugel(
     int pH,
     int pV,
     int pGroesse,
@@ -35,6 +35,7 @@ public class Farbkugel extends Kugel
     public void zeichne(){
         buntstift.bewegeBis(this.hPosition(), this.vPosition());
         buntstift.zeichneKreis(this.groesse());
+        buntstift.schreibeText("8");
     }
     
     public void loesche(){
@@ -42,4 +43,5 @@ public class Farbkugel extends Kugel
         this.zeichne();
         buntstift.normal();
     }
+
 }

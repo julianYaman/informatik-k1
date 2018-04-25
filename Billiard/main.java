@@ -15,6 +15,8 @@ public class main
     Kugel kugel3;
     Reibungskugel kugel4;
     Farbkugel kugel5;
+    Pulsierkugel kugel6;
+    Zahlenkugel kugel7;
     
     Maus dieMaus;
     Tastatur dieTastatur;
@@ -29,6 +31,8 @@ public class main
         kugel3 = new Kugel(100,160, 7, 0.3, 0, derBildschirm);
         kugel4 = new Reibungskugel(140, 140, 7, 1, 0, derBildschirm);
         kugel5 = new Farbkugel(300,300, 7, 0.3, 0, derBildschirm, Farbe.GRUEN);
+        // kugel6 = new Pulsierkugel(400,100, 7, 0.3, 0, derBildschirm, 10,2);
+        kugel7 = new Zahlenkugel(300,300, 7, 0.3, 0, derBildschirm, Farbe.SCHWARZ);
         dieMaus = new Maus();
         dieTastatur = new Tastatur();
         derStift = new Buntstift();
@@ -45,6 +49,7 @@ public class main
             kugel3.bewege();
             kugel4.bewege();
             kugel5.bewege();
+            kugel6.bewege();
         }while(!dieMaus.doppelKlick());  
         
         // Aufraeumen
